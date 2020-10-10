@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+body p {
+  font-size: 1.5vw;
+}
+
+.make-responsive {
+  float: left;
+  width: 33%;
+}
+
+.text-between-pictures > p {
+  position: relative;
+  padding-left: 15%;
+}
+
+.icon {
+  position: absolute;
+  left: 0;
+}
+
+.lala {
+  font-size: 80px;
+}
+/* .lala {
+  height: 0;
+  width: 20%;
+  padding-top: (svg height / svg width) * 20%;
+  position: relative;
+} */
