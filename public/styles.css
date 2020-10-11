@@ -80,8 +80,16 @@ ul > li {
   order: 4;
 }
 
-.road-picture {
+.move-down {
   margin-top: 50px;
+}
+
+.title-class {
+  margin-top: 50px;
+  text-align: center;
+}
+.two-pictures {
+  margin-left: 10%;
 }
 
 @media screen and (max-width: 800px) {
@@ -89,7 +97,7 @@ ul > li {
     width: 100%; /* The width is 100%, when the viewport is 800px or smaller */
   }
   body p {
-    font-size: 2.5vw;
+    font-size: 3vw;
   }
 
   body h3 {
@@ -123,5 +131,10 @@ ul > li {
 
   .order-class-4 {
     order: 4;
+  }
+
+  .two-pictures {
+    margin-left: 1%;
+    width: 100%;
   }
 }
