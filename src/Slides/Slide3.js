@@ -2,14 +2,14 @@ import React from "react";
 import CheckBoxOutlinedIcon from "@material-ui/icons/CheckBoxOutlined";
 import ArrowForwardIosIcon from "@material-ui/icons/ArrowForwardIos";
 
-const Slide1 = () => {
+const Slide3 = () => {
   return (
     <div>
       <h3 className="slide-title">Prednost GGL1 brave</h3>
       <div className="make-responsive">
         <img src="/images/phoneAndHands.png" alt="no house icons pict" />
       </div>
-      <div className="make-responsive text-between-pictures">
+      <div className="make-responsive text-icon-container picture-height">
         <p>
           <span className="icon">
             <CheckBoxOutlinedIcon
@@ -58,11 +58,16 @@ const Slide1 = () => {
           vremenskim ključevima
         </p>
       </div>
-      <div className="make-responsive">
+      <div className="make-responsive picture-height-2">
         <img src="/images/houseIcons.png" alt="no house icons pict" />
+      </div>
+      {/* something is wrong the second slide instead of going under the first one interactes with first one */}
+      <div>
+        {/* <p style={{ color: "white" }}>aaa</p> */}
+        <h3 className="slide-title">GGL1 Sistem</h3>
       </div>
     </div>
   );
 };
 
-export default Slide1;
+export default Slide3;
