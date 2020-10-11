@@ -1,11 +1,17 @@
 import React from "react";
+import ComputerIcon from "@material-ui/icons/Computer";
+import LanguageIcon from "@material-ui/icons/Language";
+import EnhancedEncryptionIcon from "@material-ui/icons/EnhancedEncryption";
 
 const Slide6 = () => {
   return (
     <div>
       <div className="pict-in-midd-container">
         <div className="order-class-1">
-          <h3 style={{ color: "#990000" }}>Server</h3>
+          <h3 style={{ color: "#990000" }}>
+            <LanguageIcon />
+            Server
+          </h3>
           <hr style={{ border: 0, borderTop: "2px solid #990000" }} />
           <ul>
             <li>Sadrži enkriptovane podatke o korisnicima</li>
@@ -27,7 +33,10 @@ const Slide6 = () => {
           />
         </div>
         <div className="order-class-3">
-          <h3 style={{ color: "#8c8c8c" }}>Softver</h3>
+          <h3 style={{ color: "#8c8c8c" }}>
+            <ComputerIcon />
+            Softver
+          </h3>
           <hr style={{ border: 0, borderTop: "2px solid #8c8c8c" }} />
           <ul>
             <li>
@@ -47,7 +56,10 @@ const Slide6 = () => {
       </div>
       <div className="text-in-midd-container">
         <div className="order-class-4 middle-position">
-          <h3 style={{ color: "#e69500" }}>Pametna Brava</h3>
+          <h3 style={{ color: "#e69500" }}>
+            <EnhancedEncryptionIcon />
+            Pametna Brava
+          </h3>
           <hr style={{ border: 0, borderTop: "2px solid #e69500" }} />
           <ul>
             <li>Sistem je zamišljen i kreiran sa naglaskom na versatilnosti</li>
