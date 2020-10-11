@@ -1,6 +1,8 @@
 import React from "react";
 
-const Slide12 = () => {
+const Slide12 = (props) => {
+  const { languageContext } = props;
+
   return (
     <div>
       <h2>Meet our</h2>

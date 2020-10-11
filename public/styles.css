@@ -142,6 +142,21 @@ ul > li {
   margin-bottom: 30px;
 }
 
+.language-icon {
+  margin-right: 20px;
+  width: 3vw;
+  height: 3vw;
+}
+
+.language-icon-container {
+  float: right;
+}
+
+.button-icon-lang {
+  background: "white";
+  border: "none";
+}
+
 @media screen and (max-width: 800px) {
   .make-responsive {
     width: 100%; /* The width is 100%, when the viewport is 800px or smaller */

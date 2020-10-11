@@ -1,11 +1,13 @@
-import React from "react";
+import React, { useState } from "react";
 import CheckBoxOutlinedIcon from "@material-ui/icons/CheckBoxOutlined";
 import ArrowForwardIosIcon from "@material-ui/icons/ArrowForwardIos";
 
-const Slide3 = () => {
+const Slide3 = (props) => {
+  const { languageContext } = props;
   return (
     <div>
-      <h3 className="slide-title">Prednost GGL1 brave</h3>
+      <h3 className="slide-title">{languageContext.slide_3_title}</h3>
+
       <div className="make-responsive">
         <img src="/images/phoneAndHands.png" alt="no house icons pict" />
       </div>
@@ -19,8 +21,7 @@ const Slide3 = () => {
               style={{ fontSize: "250%", color: "#8c8c8c" }}
             />
           </span>
-          Simbioza softverskog rešenja i kombinacije “third-party” hardvera koji
-          formira pametnu bravu
+          {languageContext.slide_3_par_1}
         </p>
         <p>
           <span className="icon">
@@ -31,7 +32,7 @@ const Slide3 = () => {
               style={{ fontSize: "250%", color: "#e69500" }}
             />
           </span>
-          Bez upotrebe wireless-a i Bluetooth-a
+          {languageContext.slide_3_par_2}
         </p>
         <p>
           <span className="icon">
@@ -42,8 +43,7 @@ const Slide3 = () => {
               style={{ fontSize: "250%", color: "#990000" }}
             />
           </span>
-          Koriscenje NFC modula na telefonu umesto fizičkog ključa, uz back-up
-          opciju korišćenja fizičkog ključa
+          {languageContext.slide_3_par_3}
         </p>
         <p>
           <span className="icon">
@@ -54,8 +54,7 @@ const Slide3 = () => {
               style={{ fontSize: "250%", color: "#e69500" }}
             />
           </span>
-          Mogućnost kreiranja master ključa kao i manipulacija ostalim
-          vremenskim ključevima
+          {languageContext.slide_3_par_4}
         </p>
       </div>
       <div className="make-responsive picture-height-2">
@@ -63,8 +62,10 @@ const Slide3 = () => {
       </div>
       {/* something is wrong the second slide instead of going under the first one interactes with first one */}
       <div>
-        {/* <p style={{ color: "white" }}>aaa</p> */}
-        <h3 className="slide-title">GGL1 Sistem</h3>
+        <p style={{ color: "white" }}>aaa</p>
+        <p style={{ color: "white" }}>aaa</p>
+        <p style={{ color: "white" }}>aaa</p>
+        <h3 className="slide-title"> {languageContext.slide_6_title} </h3>
       </div>
     </div>
   );
