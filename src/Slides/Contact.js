@@ -8,7 +8,9 @@ const Contact = () => {
         <img src="/images/logo.png" alt="" />
       </div>
       <div className="contact-container">
-        <p className="aleksandar">Aleksandar Kovačević</p>
+        <p className="aleksandar-contact name-container">
+          Aleksandar Kovačević
+        </p>
         <div className="mail-container">
           <a
             className="email-link"

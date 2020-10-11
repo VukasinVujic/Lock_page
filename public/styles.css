@@ -97,13 +97,26 @@ ul > li {
   width: 50%;
 }
 
-.aleksandar {
-  margin: auto;
-  text-align: center;
-  width: 18%;
+.name-container {
+  width: 60%;
   padding: 10px;
   color: #ffffff;
   background-color: #990000;
+}
+
+.puzzle-slide-container {
+  display: grid;
+  grid-template-columns: 25% 50% 25%;
+}
+
+.space-between {
+  margin-bottom: 300px;
+}
+
+.aleksandar-contact {
+  width: 18%;
+  margin: auto;
+  text-align: center;
 }
 
 .mail-container {
@@ -169,5 +182,16 @@ ul > li {
   .two-pictures {
     margin-left: 1%;
     width: 100%;
+  }
+  .space-between,
+  .space-between2 {
+    margin-bottom: 30px;
+  }
+  .remove-image {
+    display: none;
+  }
+  .puzzle-slide-container {
+    display: grid;
+    grid-template-columns: 80%;
   }
 }
