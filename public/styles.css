@@ -92,6 +92,39 @@ ul > li {
   margin-left: 10%;
 }
 
+.logo-container {
+  margin: 0 auto;
+  width: 50%;
+}
+
+.aleksandar {
+  margin: auto;
+  text-align: center;
+  width: 18%;
+  padding: 10px;
+  color: #ffffff;
+  background-color: #990000;
+}
+
+.mail-container {
+  width: 100%;
+}
+.email-link {
+  display: block;
+  text-align: center;
+  margin: 0 auto;
+}
+.phone-number {
+  margin: auto;
+  text-align: center;
+}
+
+.logo-container,
+.aleksandar,
+.phone-number {
+  margin-bottom: 30px;
+}
+
 @media screen and (max-width: 800px) {
   .make-responsive {
     width: 100%; /* The width is 100%, when the viewport is 800px or smaller */
