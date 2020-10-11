@@ -22,7 +22,7 @@ body h3 {
   width: 33%;
 }
 
-.text-between-pictures > p {
+.text-icon-container > p {
   position: relative;
   padding-left: 25%;
   margin-bottom: 30px;
@@ -38,6 +38,48 @@ body h3 {
   margin-bottom: 50px;
 }
 
+.picture-height-1,
+.picture-height-2 {
+  height: 500px;
+}
+
+hr {
+  width: 70%;
+}
+
+ul > li {
+  margin-left: 20px;
+  width: 70%;
+}
+.pict-in-midd-container {
+  display: grid;
+  grid-template-columns: 30% 40% 30%;
+}
+
+.text-in-midd-container {
+  display: grid;
+  grid-template-columns: 30%;
+}
+.middle-position {
+  grid-column: 2/3;
+}
+
+.order-class-1 {
+  order: 1;
+}
+
+.order-class-2 {
+  order: 2;
+}
+
+.order-class-3 {
+  order: 3;
+}
+
+.order-class-4 {
+  order: 4;
+}
+
 @media screen and (max-width: 800px) {
   .make-responsive {
     width: 100%; /* The width is 100%, when the viewport is 800px or smaller */
@@ -50,9 +92,32 @@ body h3 {
     font-size: 4.5vw;
   }
 
-  .text-between-pictures > p {
+  .text-icon-container > p {
     position: relative;
     padding-left: 15%;
     margin-bottom: 30px;
+  }
+  .pict-in-midd-container,
+  .text-in-midd-container {
+    grid-template-columns: 50%;
+  }
+
+  .middle-position {
+    grid-column: 1/2;
+  }
+  .order-class-1 {
+    order: 2;
+  }
+
+  .order-class-2 {
+    order: 1;
+  }
+
+  .order-class-3 {
+    order: 3;
+  }
+
+  .order-class-4 {
+    order: 4;
   }
 }
