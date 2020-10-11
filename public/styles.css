@@ -80,6 +80,10 @@ ul > li {
   order: 4;
 }
 
+.road-picture {
+  margin-top: 50px;
+}
+
 @media screen and (max-width: 800px) {
   .make-responsive {
     width: 100%; /* The width is 100%, when the viewport is 800px or smaller */
@@ -95,11 +99,11 @@ ul > li {
   .text-icon-container > p {
     position: relative;
     padding-left: 15%;
-    margin-bottom: 30px;
+    margin-bottom: 100px;
   }
   .pict-in-midd-container,
   .text-in-midd-container {
-    grid-template-columns: 50%;
+    grid-template-columns: 100%;
   }
 
   .middle-position {
